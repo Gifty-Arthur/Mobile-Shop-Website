@@ -1,4 +1,5 @@
 import React from "react";
+import { useState } from "react";
 
 //Images
 import Logo from "../../assets/Images/Logo.png";
@@ -15,7 +16,11 @@ const Navbar = () => {
     { name: "Contact Us", link: "/" },
     { name: "Blogs", link: "/" },
   ];
-  let [open, setOpen] = useState(false);
+  const [open, setOpen] = useState(false);
+
+  const toggleNavbar = () => {
+    setOpen(!open);
+  };
 
   return (
     <div className="shadow-md w-full h-[88px] fixed top-0 left-0 bg-white">
@@ -26,7 +31,7 @@ const Navbar = () => {
           <div className="relative">
             <form action="" className="relative">
               {/* icon */}
-              <span className=" absolute inset-y-0 left-0 pl-3 flex items-center">
+              <span className=" absolute inset-y-0 left-0 pl-3 flex items-center ">
                 <CiSearch className="w-[24px] h-[24px] text-secondary" />
               </span>
               <input
@@ -37,12 +42,13 @@ const Navbar = () => {
             </form>
           </div>
           <div className="text-3xl absolute right-8 top-6 cursor-pointer md:hidden">
-            <IoMenu />
+            <button onClick={toggleNavbar}>
+              {open ? <IoMenu /> : <IoClose />}
+            </button>
           </div>
-
           {/* Navbar */}
           <ul
-            className={`ml-4 font-roboto font-medium md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-white md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${
+            className={`ml-4 font-roboto font-medium md:flex md:items-center md:pb-0 pb-12 absolute md:static hidden: bg-white md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${
               open ? "top-20 opacity-100" : "top-[-490px]"
             }md:opacity-0`}
           >
@@ -58,7 +64,7 @@ const Navbar = () => {
             ))}
           </ul>
         </div>
-        <div className="flex flex-wrap gap-6 mr-8 ">
+        <div className="md:flex hidden flex-wrap gap-6 mr-14  pl-10">
           <FaRegHeart className="w-[32px] h-[32px] hover:text-red-400 " />
           <IoCartOutline className="w-[32px] h-[32px] hover:text-red-400" />
           <CgProfile className="w-[32px] h-[32px] hover:text-red-400" />
