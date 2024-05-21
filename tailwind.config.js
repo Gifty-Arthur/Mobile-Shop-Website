@@ -11,7 +11,7 @@ export default {
         primary: '#656565',
         secondary: '#989898',
         tertiary: '#B5B5B5',
-        stroke: "",
+        stroke: "#F5F5F5",
 
       },
       fontFamily:{
