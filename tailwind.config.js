@@ -12,6 +12,9 @@ export default {
         secondary: '#989898',
         tertiary: '#B5B5B5',
         stroke: "#F5F5F5",
+        purp: "#7153ee",
+        picker: "#211c24"
+
 
       },
       fontFamily:{
