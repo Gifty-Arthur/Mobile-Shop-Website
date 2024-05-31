@@ -6,7 +6,7 @@ import animationData from "../../../assets/Images/animation.json";
 
 function Home() {
   return (
-    <div className="bg-black w-full h-auto md:flex md:justify-center">
+    <div className="bg-head w-full h-auto md:flex md:justify-center">
       <div className="container md:flex md:flex-row md:items-center">
         <div className=" md:mt-0 md:order-1">
           <h3 className="text-white text-xl md:text-[25px] font-semibold opacity-[50%] mt-2 ml-32 md:ml-0">

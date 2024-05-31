@@ -13,7 +13,10 @@ export default {
         tertiary: '#B5B5B5',
         stroke: "#F5F5F5",
         purp: "#7153ee",
-        picker: "#EDEDED"
+        picker: "#EDEDED",
+        calm: "#909090",
+        head: "#211c24",
+        mid: "#353535",
 
 
       },
