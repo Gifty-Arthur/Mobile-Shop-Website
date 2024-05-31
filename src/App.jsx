@@ -4,12 +4,14 @@ import Navbar from "./Components/Pages/Navbar";
 import Mart from "./Components/Icons/Mart";
 import Profile from "./Components/Icons/Profile";
 import Home from "./Components/Pages/Home/Home";
+import Category from "./Components/Pages/Home/Category";
 
 function App() {
   return (
     <div>
       <Navbar />
       <Home />
+      <Category />
 
       <Routes>
         <Route path="mart/" element={<Mart />} />

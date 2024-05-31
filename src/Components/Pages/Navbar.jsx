@@ -91,25 +91,25 @@ function Navbar() {
         onClick={() => setNav(false)}
       >
         <Link to="/">
-          <li className="text-xl font-medium font-roboto hover:text-purp">
+          <li className="text-xl text-white font-medium font-roboto hover:text-purp">
             Home
           </li>
         </Link>
 
         <Link to="/">
-          <li className="text-xl font-medium font-roboto hover:text-purp">
+          <li className="text-xl text-white font-medium font-roboto hover:text-purp">
             About
           </li>
         </Link>
 
         <Link to="/">
-          <li className="text-xl font-medium font-roboto hover:text-purp">
+          <li className="text-xl text-white font-medium font-roboto hover:text-purp">
             Blog
           </li>
         </Link>
 
         <Link to="/">
-          <li className="text-xl font-medium font-roboto hover:text-purp">
+          <li className="text-xl text-white font-medium font-roboto hover:text-purp">
             Contact
           </li>
         </Link>
