@@ -1,0 +1,3 @@
+.btn-primary{
+    @apply w-[184px] h-[56px] mt-6 ml-20 md:ml-0 rounded-md border border-1 text-white hover:bg-violet-500
+}
