@@ -16,7 +16,7 @@ import mbanner2 from "../../../assets/Images/mbanner2.png";
 const Category = () => {
   return (
     <div className="">
-      <div className="">
+      <div className="container">
         <div className=" flex flex-row w-full">
           <div className="   md:flex-col flex flex-col-reverse">
             <div className="md:flex">
@@ -31,10 +31,8 @@ const Category = () => {
                   Playstation 5
                 </h1>
                 <p className="text-md font-medium text-calm mt-2 ">
-                  Incredibly powerful CPUs, GPUs, and an SSD with
-                  <br />
-                  integrated I/O will redefine your PlayStation <br />
-                  experience.
+                  Incredibly powerful CPUs, GPUs, and an SSD with integrated I/O
+                  will redefine your PlayStation experience.
                 </p>
               </div>
             </div>
@@ -44,14 +42,14 @@ const Category = () => {
               <div className="bg-picker  sm:flex md:basis-1/2 ">
                 {/* img mobile */}
                 <div className="flex items-center justify-center sm:hidden">
-                  <img className="" src={mbanner3} alt="" />
+                  <img className="mt-4" src={mbanner3} alt="" />
                 </div>
                 {/* img md */}
                 <img className="hidden sm:flex" src={banner3} alt="" />
 
-                <div className="md:w-3/5 mx-auto md:mt-10 ml-10">
+                <div className="md:w-3/5 mx-auto md:mt-10 ml-14">
                   <div className="flex flex-row md:flex-col gap-2">
-                    <h1 className="font-light text-3xl text-[34px] sm:text-[29px]">
+                    <h1 className="font-light text-3xl text-[34px] md:text-[29px]">
                       Apple <br className="hidden sm:block" /> AirPods
                     </h1>
                     <h1 className="font-medium font-roboto text-3xl sm:text-[29px]">
@@ -59,20 +57,21 @@ const Category = () => {
                     </h1>
                   </div>
 
-                  <p className="text-sm font-medium text-calm">
+                  <p className="text-sm font-medium text-calm mt-2">
                     Computational audio Listen, it's powerful
                   </p>
                 </div>
               </div>
+
               {/* Vision */}
               <div className="bg-mid md:basis-1/2 ">
-                <div className="md:flex ">
+                <div className="md:flex">
                   <div className="flex items-center justify-center sm:hidden">
-                    <img className="mt-2" src={mbanner4} alt="" />
+                    <img className="mt-8" src={mbanner4} alt="" />
                   </div>
                   {/* img md */}
-                  <img className="hidden sm:flex" src={banner4} alt="" />
-                  <div className="md:w-3/5 mx-auto md:mt-10 ml-8 md:ml-10">
+                  <img className="hidden sm:flex " src={banner4} alt="" />
+                  <div className="md:w-3/5 mx-auto md:mt-10  md:ml-10">
                     <div className="flex flex-row md:flex-col gap-2 ">
                       <h1 className="font-light text-3xl text-[34px] ml-10  text-white sm:text-[29px]">
                         Apple Vision
@@ -91,7 +90,7 @@ const Category = () => {
           </div>
 
           {/* laptop */}
-          <div className="bg-picker  basis-1/2  justify-between items-center sm:flex hidden">
+          <div className="bg-picker  basis-1/2  justify-between items-center sm:flex hidden  ">
             <div className="ml-10">
               <h1 className="text-[64px] font-thin">
                 Macbook <span className="font-medium">Air</span>
@@ -126,7 +125,7 @@ const Category = () => {
               with a spacious Liquid Retina display.
             </p>
             <Link to="/shop">
-              <button className="w-[343px] h-[56px] rounded-md border ml-8 border-1 border-black text-black hover:bg-violet-500 mt-4">
+              <button className="w-[343px] h-[56px] rounded-md border  ml-4  border-1 border-black text-black hover:bg-violet-500 mt-4">
                 Shop Now
               </button>
             </Link>

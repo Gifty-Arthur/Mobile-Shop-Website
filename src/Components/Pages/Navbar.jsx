@@ -16,7 +16,7 @@ function Navbar() {
 
   return (
     <nav className="bg-white md:h-[89px] h-auto flex justify-between items-center nav relative">
-      <div className="flex flex-wrap justify-center items-center gap-2 md:gap-10 md:mt-0 p-5">
+      <div className="container flex flex-wrap justify-center items-center gap-2 md:gap-10 md:mt-0 p-5">
         <img className="md:ml-2 mt-2" src={logo} alt="Logo" />
 
         {/* search bar */}
