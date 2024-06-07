@@ -17,6 +17,7 @@ export default {
         calm: "#909090",
         head: "#211c24",
         mid: "#353535",
+        brand: "#F6F6F6"
 
 
       },

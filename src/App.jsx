@@ -6,6 +6,7 @@ import Profile from "./Components/Icons/Profile";
 import Home from "./Components/Pages/Home/Home";
 import Category from "./Components/Pages/Home/Category";
 import Arrival from "./Components/Pages/Home/Arrival";
+import NewArrival from "./Components/Pages/Home/NewArrival";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Home />
       <Category />
       <Arrival />
+      <NewArrival />
 
       <Routes>
         <Route path="mart/" element={<Mart />} />

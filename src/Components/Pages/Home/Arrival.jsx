@@ -14,7 +14,7 @@ import { IoIosArrowForward, IoIosArrowBack } from "react-icons/io";
 const Arrival = () => {
   return (
     <div>
-      <div className="container mt-10 py-10">
+      <div className="container mt-8 py-10">
         <div className="flex  items-center justify-between">
           <h1 className="md:text-3xl text-2xl font-medium">
             Browse By Category
@@ -26,10 +26,10 @@ const Arrival = () => {
         </div>
 
         {/* icons */}
-        <div className="md:mt-14  md:flex gap-12 mt-8">
+        <div className="md:mt-6 md:flex flex-wrap gap-12 mt-8">
           {/* phones */}
 
-          <div className="flex space-x-12 md:flex-row mt-8">
+          <div className="flex space-x-12 md: mt-8">
             <div
               className="bg-picker rounded-[15px] h-[128px] w-[160px] flex items-center justify-center cursor
                hover:-translate-y-5 hover:border-b-4 hover:border-indigo-700 transitin-all duration-300 cursor-pointer"
