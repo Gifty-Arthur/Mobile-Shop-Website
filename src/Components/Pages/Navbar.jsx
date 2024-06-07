@@ -19,17 +19,7 @@ function Navbar() {
       <div className="flex flex-wrap justify-center items-center gap-2 md:gap-10 md:mt-0 p-5">
         <img className="md:ml-2 mt-2" src={logo} alt="Logo" />
 
-        <form action="" className="relative mt-4 w-full md:w-auto">
-          {/* icon */}
-          <span className="absolute inset-y-0 left-0 pl-3 flex items-center">
-            <CiSearch className="w-5 h-5 md:w-[24px] md:h-[24px] text-secondary" />
-          </span>
-          <input
-            type="text"
-            placeholder="Search"
-            className="w-full md:w-[572px] h-10 md:h-[56px] bg-stroke border border-gray-300 rounded-md py-2 px-4 pl-10 focus:outline-none focus:ring-2 focus:ring-blue-500"
-          />
-        </form>
+        {/* search bar */}
       </div>
 
       <ul className="hidden md:flex gap-6 mr-36 mt-6">
