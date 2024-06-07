@@ -21,8 +21,10 @@ const NewArrival = () => {
       <div className="">
         {/* text */}
         <div className="flex gap-8 mt-8">
-          <h2 className="md:text-[18px] font-bold underline">New Arrival</h2>
-          <h2 className="text-[18px] text-[#8B8B8B]">Bestseller</h2>
+          <h2 className="md:text-[18px] font-bold underline cursor-pointer">
+            New Arrival
+          </h2>
+          <h2 className="md:text-[18px]  text-[#8B8B8B]">Bestseller</h2>
           <h2 className="text-[18px] text-[#8B8B8B]">Featured Products</h2>
         </div>
 

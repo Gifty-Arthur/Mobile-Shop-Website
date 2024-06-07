@@ -7,6 +7,7 @@ import Home from "./Components/Pages/Home/Home";
 import Category from "./Components/Pages/Home/Category";
 import Arrival from "./Components/Pages/Home/Arrival";
 import NewArrival from "./Components/Pages/Home/NewArrival";
+import Banner from "./Components/Pages/Home/Banner";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Category />
       <Arrival />
       <NewArrival />
+      <Banner />
 
       <Routes>
         <Route path="mart/" element={<Mart />} />

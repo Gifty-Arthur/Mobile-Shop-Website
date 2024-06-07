@@ -16,7 +16,7 @@ import mbanner2 from "../../../assets/Images/mbanner2.png";
 const Category = () => {
   return (
     <div className="">
-      <div className="container">
+      <div className="">
         <div className=" flex flex-row w-full">
           <div className="   md:flex-col flex flex-col-reverse">
             <div className="md:flex">
