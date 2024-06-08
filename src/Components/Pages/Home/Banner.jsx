@@ -24,7 +24,7 @@ const Banner = () => {
       <div className="mt-12 ">
         {/* Desktop View */}
         <div className="sm:flex hidden">
-          <div className="md:flex flex-row">
+          <div className="md:flex flex-row lg:flex flex-items-center justify-center">
             {/* b3 */}
             <div className="w-[360px] h-[640px] hover:scale-95 transition-all duration-300 cursor-pointer">
               <img src={b3} alt="b3" />
@@ -77,12 +77,13 @@ const Banner = () => {
                 </Link>
               </div>
             </div>
+
             {/* mbanner2 */}
             <div className="w-[360px] h-[640px] bg-[#2C2C2C] hover:scale-95 transition-all duration-300 cursor-pointer">
               <div>
                 <img className="mt-20" src={mbanner2} alt="mbanner2" />
               </div>
-              <div className="md:ml-10 md:mt-28">
+              <div className="md:mt-28 md:text-center ">
                 <h1 className="text-[33px] text-white font-light font-roboto">
                   Macbook Pro
                 </h1>

@@ -17,7 +17,8 @@ export default {
         calm: "#909090",
         head: "#211c24",
         mid: "#353535",
-        brand: "#F6F6F6"
+        brand: "#F6F6F6",
+        darkgradient: 'linear-gradient(to right, #2E2E2E, #1A1A1A, #101010, #000000)',
 
 
       },

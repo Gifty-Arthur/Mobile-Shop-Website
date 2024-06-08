@@ -9,6 +9,7 @@ import Arrival from "./Components/Pages/Home/Arrival";
 import NewArrival from "./Components/Pages/Home/NewArrival";
 import Banner from "./Components/Pages/Home/Banner";
 import Discounts from "./Components/Pages/Home/Discounts";
+import Summer from "./Components/Pages/Home/Summer";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <NewArrival />
       <Banner />
       <Discounts />
+      <Summer />
 
       <Routes>
         <Route path="mart/" element={<Mart />} />
