@@ -26,7 +26,7 @@ const Arrival = () => {
         </div>
 
         {/* icons */}
-        <div className="md:mt-6 md:flex flex-wrap gap-12 mt-8">
+        <div className="md:mt-6 md:flex flex-row gap-12 sm:flex-row lg:flex-row mt-8">
           {/* phones */}
 
           <div className="flex space-x-12 md: mt-8">

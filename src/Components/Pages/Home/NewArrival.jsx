@@ -32,8 +32,8 @@ const NewArrival = () => {
 
         {/* iphone14 */}
 
-        <div>
-          <div className="md:flex flex-wrap  gap-12">
+        <div className="md:flex flex-col sm:flex-col">
+          <div className="md:flex flex-row  sm:flex-row gap-12">
             <div className="flex md:gap-12 gap-8">
               <div className="bg-brand mt-8 md:w-[268px]  md:h-[432px] w-1/2 rounded-md hover:scale-95 transtion-all duration-300">
                 <div className="text-calm flex items-center justify-end mr-4">
@@ -116,7 +116,7 @@ const NewArrival = () => {
 
           {/* 2nd Images */}
 
-          <div className="md:flex flex-wrap  gap-12">
+          <div className="md:flex flex-wrapsm:flex-row gap-12">
             <div className="flex md:gap-12 gap-8">
               {/* galaxy */}
               <div className="bg-brand mt-8 md:w-[268px]  md:h-[432px] w-1/2 rounded-md hover:scale-95 transtion-all duration-300">

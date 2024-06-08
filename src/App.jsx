@@ -8,6 +8,7 @@ import Category from "./Components/Pages/Home/Category";
 import Arrival from "./Components/Pages/Home/Arrival";
 import NewArrival from "./Components/Pages/Home/NewArrival";
 import Banner from "./Components/Pages/Home/Banner";
+import Discounts from "./Components/Pages/Home/Discounts";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Arrival />
       <NewArrival />
       <Banner />
+      <Discounts />
 
       <Routes>
         <Route path="mart/" element={<Mart />} />
