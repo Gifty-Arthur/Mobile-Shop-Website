@@ -7,14 +7,14 @@ function Home() {
     <div className="bg-head w-full h-auto md:flex md:justify-center">
       <div className="container md:flex md:flex-row md:items-center">
         <div className=" md:mt-0 md:order-1">
-          <h3 className="text-white text-xl md:text-[25px] font-semibold opacity-[50%] mt-2 ml-32 md:ml-0">
+          <h3 className="text-white text-xl md:text-[25px] font-semibold opacity-[50%]  ml-32 md:ml-0">
             Pro.Beyond.
           </h3>
           <div className="md:flex md:flex-wrap">
-            <h1 className="text-white text-[4.5rem] ml-10 md:ml-0 font-light">
+            <h1 className="text-white text-6xl md:text-[4.5rem] ml-10 md:ml-0 mt-8 text-center font-light">
               IPhone 14
             </h1>
-            <p className="text-white text-[4.5rem] font-semibold font-roboto ml-24 md:ml-2 mt-2">
+            <p className="text-white text-[4.5rem] font-semibold font-roboto text-center md:ml-2 mt-2">
               Pro
             </p>
           </div>

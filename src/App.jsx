@@ -10,6 +10,7 @@ import NewArrival from "./Components/Pages/Home/NewArrival";
 import Banner from "./Components/Pages/Home/Banner";
 import Discounts from "./Components/Pages/Home/Discounts";
 import Summer from "./Components/Pages/Home/Summer";
+import Footer from "./Components/Pages/Home/Footer";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Banner />
       <Discounts />
       <Summer />
+      <Footer />
 
       <Routes>
         <Route path="mart/" element={<Mart />} />

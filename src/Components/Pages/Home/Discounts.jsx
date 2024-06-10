@@ -12,15 +12,15 @@ import { CiHeart } from "react-icons/ci";
 
 const Discounts = () => {
   return (
-    <div className="container">
-      <div className="">
+    <div className="">
+      <div className="container">
         <div>
           <h2 className="text-2xl font-medium ">Discount up to -50%</h2>
         </div>
 
         {/* img */}
-        <div className="md:flex flex-row  sm:flex-row gap-12">
-          <div className="flex md:gap-12 gap-8">
+        <div className="md:flex flex-row  sm:flex-row gap-4">
+          <div className="flex md:gap-4 gap-8">
             <div className="bg-brand mt-8 md:w-[268px]  md:h-[432px] w-1/2 rounded-md hover:scale-95 transtion-all duration-300">
               <div className="text-calm flex items-center justify-end mr-4">
                 <CiHeart size={32} className="mt-4" />
@@ -60,7 +60,7 @@ const Discounts = () => {
           </div>
 
           {/* Apple watch */}
-          <div className="flex flex-row gap-8 md:gap-12 ">
+          <div className="flex flex-row gap-8 md:gap-4s ">
             <div className="bg-brand mt-8 md:w-[268px]  md:h-[432px] w-1/2 rounded-md hover:scale-95 transtion-all duration-300">
               <div className="text-calm flex items-center justify-end mr-4">
                 <CiHeart size={32} className="mt-4" />

@@ -15,9 +15,9 @@ import msum4 from "../../../assets/Summer/msum4.png";
 
 const Summer = () => {
   return (
-    <div className="container">
+    <div className="">
       <div className="md:flex hidden sm:flex lg:flex">
-        <div className=" w-full relative bg-gradient-to-r from-[#2E2E2E] from-10% via-[#1A1A1A] via-30% to-[#101010] to-90%">
+        <div className=" w-screen relative bg-gradient-to-r from-[#2E2E2E] from-10% via-[#1A1A1A] via-30% to-[#101010] to-90%">
           <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 flex items-center justify-center flex-col ml-6">
             <h1 className="text-5xl text-white  ">
               Big Summer <span className="text-5xl font-medium">Sale</span>
@@ -38,16 +38,16 @@ const Summer = () => {
             </div>
             <div className="flex flex-col items-center">
               <div className="flex justify-end w-full">
-                <img className="" src={Sum2} alt="" />
+                <img className="-mt-4" src={Sum2} alt="" />
               </div>
-              <img className="" src={Sum1} alt="" />
+              <img className="mt-8 " src={Sum1} alt="" />
             </div>
           </div>
         </div>
       </div>
       {/* mobile view */}
       <div className="flex md:hidden sm:hidden mt-4">
-        <div className="   bg-gradient-to-r from-[#2E2E2E] from-10% via-[#1A1A1A] via-30% to-[#101010] to-90%">
+        <div className=" w-screen  bg-gradient-to-r from-[#2E2E2E] from-10% via-[#1A1A1A] via-30% to-[#101010] to-90%">
           <div className="relative  h-[500px]">
             <div className="absolute top-0 left-0">
               <img className="w-[48px] h-[141px]" src={msum4} alt="" />
