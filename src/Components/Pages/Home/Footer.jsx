@@ -1,9 +1,8 @@
-import React from "react";
 import { FaFacebook, FaInstagram, FaTiktok, FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className="">
+    <div className="container">
       <div className="bg-[#000000] md:w-screen md:h-[500px] h-screen  flex flex-col justify-between">
         <div className="md:flex flex-row gap-12">
           <div className="md:ml-10 md:mt-20 sm:ml-10 sm:mt-20 text-center">
