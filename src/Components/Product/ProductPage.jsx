@@ -7,12 +7,13 @@ import {
   IoIosArrowUp,
   IoIosCheckbox,
   IoIosArrowDown,
+  IoIosArrowBack,
 } from "react-icons/io";
 import { MdOutlineCheckBoxOutlineBlank } from "react-icons/md";
 import { CiHeart } from "react-icons/ci";
 
 //Images
-import iphon1 from "../../assets/ProductPage/iphone1.png";
+
 import iphon7 from "../../assets/ProductPage/iphone7.png";
 import iphon8 from "../../assets/ProductPage/iphone8.png";
 import iphon5 from "../../assets/ProductPage/iphone5.png";
@@ -369,9 +370,9 @@ const ProductPage = () => {
                     <img className="mt-8" src={iphon3} alt="" />
                   </div>
                   <p className="text-[16px] font-medium text-center md:mt-4">
-                    Apple iPhone 11 128GB White (MQ233)
+                    Apple iPhone 13 mini 128GB Pink (MLK23)
                   </p>
-                  <p className="text-[24px] font-medium text-center">$550</p>
+                  <p className="text-[24px] font-medium text-center">$850</p>
                   <Link to="/shop">
                     <button className="md:w-[184px] h-[48px] w-[139px] mt-2  md:ml-10  ml-2 rounded-[8px] bg-black text-white hover:bg-violet-500 ">
                       Buy Now
@@ -388,9 +389,9 @@ const ProductPage = () => {
                     <img className="mt-8" src={iphon2} alt="" />
                   </div>
                   <p className="text-[16px] font-medium text-center md:mt-4">
-                    Apple iPhone 11 128GB White (MQ233)
+                    Apple iPhone 14 Pro 256GB Space Black (MQ0T3)
                   </p>
-                  <p className="text-[24px] font-medium text-center">$550</p>
+                  <p className="text-[24px] font-medium text-center">$1399</p>
                   <Link to="/shop">
                     <button className="md:w-[184px] h-[48px] w-[139px] mt-2  md:ml-10  ml-2 rounded-[8px] bg-black text-white hover:bg-violet-500 ">
                       Buy Now
@@ -409,12 +410,35 @@ const ProductPage = () => {
                   <p className="text-[16px] font-medium text-center md:mt-4">
                     Apple iPhone 11 128GB White (MQ233)
                   </p>
-                  <p className="text-[24px] font-medium text-center">$550</p>
+                  <p className="text-[24px] font-medium text-center">$1399</p>
                   <Link to="/shop">
                     <button className="md:w-[184px] h-[48px] w-[139px] mt-2  md:ml-10  ml-2 rounded-[8px] bg-black text-white hover:bg-violet-500 ">
                       Buy Now
                     </button>
                   </Link>
+                </div>
+              </div>
+              {/* numbers */}
+              <div>
+                <div className="flex gap-12 mt-8  items-center justify-center">
+                  <IoIosArrowBack size={25} />
+                  <div className="flex flex-row gap-2">
+                    <div className="bg-black w-[34px] h-[32px] rounded-md text-white flex items-center justify-center">
+                      1
+                    </div>
+                    <div className="bg-[#F6F6F6] w-[34px] h-[32px] rounded-md text-black flex items-center justify-center">
+                      <h1 className="text-[16px]">2</h1>
+                    </div>
+                    <div className="bg-[#F6F6F6] w-[34px] h-[32px] rounded-md text-black flex items-center justify-center">
+                      <h1 className="text-[16px]">3</h1>
+                    </div>
+                    <h1 className="mt-1 text-[#737373] ">....</h1>
+                    <div className="bg-[#F6F6F6] w-[34px] h-[32px] rounded-md text-black flex items-center justify-center">
+                      <h1 className="text-[16px]">12</h1>
+                    </div>
+                  </div>
+
+                  <IoIosArrowForward size={25} />
                 </div>
               </div>
             </div>
