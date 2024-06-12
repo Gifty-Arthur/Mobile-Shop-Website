@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 
 // images
@@ -12,6 +11,7 @@ import mbanner3 from "../../../assets/Images/mbanner3.png";
 import mbanner1 from "../../../assets/Images/mbanner1.png";
 import mbanner4 from "../../../assets/Images/mbanner4.png";
 import mbanner2 from "../../../assets/Images/mbanner2.png";
+import { urls } from "../../../Helpers/routes";
 
 const Category = () => {
   return (
@@ -58,7 +58,7 @@ const Category = () => {
                   </div>
 
                   <p className="text-sm font-medium text-calm mt-2">
-                    Computational audio Listen, it's powerful
+                    Computational audio Listen, its powerful
                   </p>
                 </div>
               </div>
@@ -99,7 +99,7 @@ const Category = () => {
                 The new 15‑inch MacBook Air makes room for more of <br />
                 what you love with a spacious Liquid Retina display.
               </p>
-              <Link to="/shop">
+              <Link to={urls.productPage}>
                 <button className="w-[184px] h-[56px] rounded-md border border-1 border-black text-black hover:bg-violet-500 mt-4">
                   Shop Now
                 </button>

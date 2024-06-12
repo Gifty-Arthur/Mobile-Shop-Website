@@ -52,7 +52,7 @@ const Banner = () => {
                   iPad combines a magnificent 10.2-inch Retina display,
                   incredible performance, multitasking, and ease of use.
                 </p>
-                <Link to="/shop">
+                <Link to="/ProductPage">
                   <button className="w-[184px] h-[56px] mt-4 rounded-md border-black border-2 text-black hover:bg-violet-500">
                     Shop Now
                   </button>
@@ -92,7 +92,7 @@ const Banner = () => {
                   incredible performance, multitasking, and ease of use.
                 </p>
                 <Link to="/shop">
-                  <button className="w-[184px] h-[56px] mt-4 rounded-md border-white border-2 text-white hover:bg-violet-500">
+                  <button className="w-[184px] h-[56px] mt-4 rounded-md  border-white border-2 text-white hover:bg-violet-500">
                     Shop Now
                   </button>
                 </Link>
@@ -130,7 +130,7 @@ const Banner = () => {
                         incredible performance, multitasking and ease of use.
                       </p>
                       <Link to="/shop">
-                        <button className="w-[184px] h-[56px] ml-20 items-center mt-4  rounded-md border-black border-2 text-black hover:bg-violet-500">
+                        <button className="w-[184px] h-[56px] ml-20 mt-4  rounded-md border-black border-2 text-black hover:bg-violet-500">
                           Shop Now
                         </button>
                       </Link>

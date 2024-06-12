@@ -1,33 +1,26 @@
-import React from "react";
 import { Route, Routes } from "react-router-dom";
-import Navbar from "./Components/Pages/Navbar";
+
 import Mart from "./Components/Icons/Mart";
 import Profile from "./Components/Icons/Profile";
 import Home from "./Components/Pages/Home/Home";
-import Category from "./Components/Pages/Home/Category";
-import Arrival from "./Components/Pages/Home/Arrival";
-import NewArrival from "./Components/Pages/Home/NewArrival";
-import Banner from "./Components/Pages/Home/Banner";
-import Discounts from "./Components/Pages/Home/Discounts";
-import Summer from "./Components/Pages/Home/Summer";
-import Footer from "./Components/Pages/Home/Footer";
+
+import ProductPage from "./Components/Product/ProductPage";
+import About from "./Components/Pages/About";
+import { urls } from "./Helpers/routes";
+import NavFootLayout from "./layout/navFootLayout";
 
 function App() {
   return (
     <div>
-      <Navbar />
-      <Home />
-      <Category />
-      <Arrival />
-      <NewArrival />
-      <Banner />
-      <Discounts />
-      <Summer />
-      <Footer />
-
       <Routes>
-        <Route path="mart/" element={<Mart />} />
-        <Route path="profile/" element={<Profile />} />
+        <Route path="/" element={<NavFootLayout />}>
+          <Route path="/" element={<Home />} />
+
+          <Route path={urls.about} element={<About />} />
+          <Route path="/mart" element={<Mart />} />
+          <Route path="profile/" element={<Profile />} />
+          <Route path={urls.productPage} element={<ProductPage />} />
+        </Route>
       </Routes>
     </div>
   );

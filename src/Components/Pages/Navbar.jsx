@@ -1,16 +1,17 @@
-import React, { useState } from "react";
 import logo from "../../assets/Images/Logo.png";
 import { Link } from "react-router-dom";
 
 // icons
-import { CiHeart, CiSearch } from "react-icons/ci";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 import { CgProfile } from "react-icons/cg";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { FaTimes } from "react-icons/fa";
+import { urls } from "../../Helpers/routes";
+import { useState } from "react";
 
 function Navbar() {
   const [nav, setNav] = useState(false);
+
   // so when user clicks the hamburger button, it goes from false(!nav) to true(nav)
   const handleClick = () => setNav(!nav);
 
@@ -29,7 +30,7 @@ function Navbar() {
           </li>
         </Link>
 
-        <Link to="/">
+        <Link to={urls.about}>
           <li className="text-xl font-medium font-roboto hover:text-purp">
             About
           </li>
