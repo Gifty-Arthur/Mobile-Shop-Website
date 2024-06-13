@@ -2,7 +2,11 @@ import { urls } from "../../Helpers/routes";
 import { Link } from "react-router-dom";
 
 //images
-// import iphone4 from "../../assets/ProductPage/iphone4.png"
+import iphone4 from "../../assets/ProductPage/iphone4.png";
+import p1 from "../../assets/ProductDetails/p1.png";
+import p2 from "../../assets/ProductDetails/p2.png";
+import p3 from "../../assets/ProductDetails/p3.png";
+import p5 from "../../assets/ProductDetails/p5.png";
 
 //icons
 import {
@@ -55,10 +59,43 @@ const ProductDetails = () => {
             <Link to={urls.productdetails}>
               <div className="flex">
                 <h2 className="text-md text-black font-medium">
-                  ihone 14 pro Max
+                  iPhone 14 pro Max
                 </h2>
               </div>
             </Link>
+          </div>
+
+          {/* image */}
+
+          <div className="md:flex md:flex-row md:gap-4 md:mt-20 ">
+            {/* mobile image */}
+            <div className="flex items-center justify-center sm:hidden ml-10 md:hidden lg:hidden">
+              <img className="w-auto h-auto" src={iphone4} alt="" />
+            </div>
+            <div className=" flex flex-row gap-8 md:gap-2 md:mt-28 md:flex md:flex-col sm:flex-col mt-10 items-center justify-center ">
+              <img className="w-auto md:h-[93px] h-[66px]" src={p1} alt="" />
+              <img
+                className="md:mt-4 w-auto md:h-auto h-[66px]"
+                src={p5}
+                alt=""
+              />
+              <img
+                className="md:mt-4 w-auto md:h-auto h-[66px]"
+                src={p3}
+                alt=""
+              />
+              <img
+                className="md:mt-4 w-auto md:h-auto h-[66px]"
+                src={p2}
+                alt=""
+              />
+            </div>
+            {/* main iphone */}
+            <img
+              className="w-[413px] h-[516px] md:mt-24  md:flex hidden sm:flex lg:flex"
+              src={iphone4}
+              alt=""
+            />
           </div>
         </div>
       </div>
