@@ -8,6 +8,7 @@ import ProductPage from "./Components/Product/ProductPage";
 import About from "./Components/Pages/About";
 import { urls } from "./Helpers/routes";
 import NavFootLayout from "./layout/navFootLayout";
+import MobileProductFilters from "./Components/Product/MobileProductFilters";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/mart" element={<Mart />} />
           <Route path="profile/" element={<Profile />} />
           <Route path={urls.productPage} element={<ProductPage />} />
+          <Route path={urls.mobilefilters} element={<MobileProductFilters />} />
         </Route>
       </Routes>
     </div>
