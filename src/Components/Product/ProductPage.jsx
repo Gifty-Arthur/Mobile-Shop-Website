@@ -295,7 +295,7 @@ const ProductPage = () => {
                       <p className="text-[24px] font-medium text-center">
                         $1437
                       </p>
-                      <Link to="/shop">
+                      <Link to={urls.productdetails}>
                         <button className="md:w-[184px] h-[48px] w-[139px] mt-2  md:ml-10  ml-2 rounded-[8px] bg-black text-white hover:bg-violet-500 ">
                           Buy Now
                         </button>
@@ -315,7 +315,7 @@ const ProductPage = () => {
                       <p className="text-[24px] font-medium text-center">
                         $510
                       </p>
-                      <Link to="/shop">
+                      <Link to={urls.productdetails}>
                         <button className="md:w-[184px] h-[48px] w-[139px] mt-2  md:ml-10  ml-2 rounded-[8px] bg-black text-white hover:bg-violet-500 ">
                           Buy Now
                         </button>
@@ -335,7 +335,7 @@ const ProductPage = () => {
                       <p className="text-[24px] font-medium text-center">
                         $550
                       </p>
-                      <Link to="/shop">
+                      <Link to={urls.productdetails}>
                         <button className="md:w-[184px] h-[48px] w-[139px] mt-2  md:ml-10  ml-2 rounded-[8px] bg-black text-white hover:bg-violet-500 ">
                           Buy Now
                         </button>
@@ -357,7 +357,7 @@ const ProductPage = () => {
                       <p className="text-[24px] font-medium text-center">
                         $1499
                       </p>
-                      <Link to="/shop">
+                      <Link to={urls.productdetails}>
                         <button className="md:w-[184px] h-[48px] w-[139px] mt-2  md:ml-10  ml-2 rounded-[8px] bg-black text-white hover:bg-violet-500 ">
                           Buy Now
                         </button>
@@ -377,7 +377,7 @@ const ProductPage = () => {
                       <p className="text-[24px] font-medium text-center">
                         $1399
                       </p>
-                      <Link to="/shop">
+                      <Link to={urls.productdetails}>
                         <button className="md:w-[184px] h-[48px] w-[139px] mt-2  md:ml-10  ml-2 rounded-[8px] bg-black text-white hover:bg-violet-500 ">
                           Buy Now
                         </button>
@@ -397,7 +397,7 @@ const ProductPage = () => {
                       <p className="text-[24px] font-medium text-center">
                         $1600
                       </p>
-                      <Link to="/shop">
+                      <Link to={urls.productdetails}>
                         <button className="md:w-[184px] h-[48px] w-[139px] mt-2  md:ml-10  ml-2 rounded-[8px] bg-black text-white hover:bg-violet-500 ">
                           Buy Now
                         </button>
@@ -419,7 +419,7 @@ const ProductPage = () => {
                       <p className="text-[24px] font-medium text-center">
                         $850
                       </p>
-                      <Link to="/shop">
+                      <Link to={urls.productdetails}>
                         <button className="md:w-[184px] h-[48px] w-[139px] mt-2  md:ml-10  ml-2 rounded-[8px] bg-black text-white hover:bg-violet-500 ">
                           Buy Now
                         </button>
@@ -439,7 +439,7 @@ const ProductPage = () => {
                       <p className="text-[24px] font-medium text-center">
                         $1399
                       </p>
-                      <Link to="/shop">
+                      <Link to={urls.productdetails}>
                         <button className="md:w-[184px] h-[48px] w-[139px] mt-2  md:ml-10  ml-2 rounded-[8px] bg-black text-white hover:bg-violet-500 ">
                           Buy Now
                         </button>
@@ -459,7 +459,7 @@ const ProductPage = () => {
                       <p className="text-[24px] font-medium text-center">
                         $1399
                       </p>
-                      <Link to="/shop">
+                      <Link to={urls.productdetails}>
                         <button className="md:w-[184px] h-[48px] w-[139px] mt-2  md:ml-10  ml-2 rounded-[8px] bg-black text-white hover:bg-violet-500 ">
                           Buy Now
                         </button>

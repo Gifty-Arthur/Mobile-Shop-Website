@@ -4,4 +4,5 @@ export const urls = {
     mart: "/mart",
     about: "/about",
     mobilefilters: "/mobilefilters",
+    productdetails: "/productdetails"
 }

@@ -9,6 +9,7 @@ import About from "./Components/Pages/About";
 import { urls } from "./Helpers/routes";
 import NavFootLayout from "./layout/navFootLayout";
 import MobileProductFilters from "./Components/Product/MobileProductFilters";
+import ProductDetails from "./Components/Product/ProductDetails";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="profile/" element={<Profile />} />
           <Route path={urls.productPage} element={<ProductPage />} />
           <Route path={urls.mobilefilters} element={<MobileProductFilters />} />
+          <Route path={urls.productdetails} element={<ProductDetails />} />
         </Route>
       </Routes>
     </div>
