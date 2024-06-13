@@ -22,6 +22,7 @@ export default {
         custom2: '#1A1A1A',
         custom3: '#101010',
         custom4: '#000000',
+        custom5: '#CECECE'
 
 
       },
