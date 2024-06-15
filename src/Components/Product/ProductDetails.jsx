@@ -11,6 +11,7 @@ import p5 from "../../assets/ProductDetails/p5.png";
 //icons
 import {
   IoIosArrowForward,
+  IoMdCheckmarkCircleOutline,
   // IoIosArrowUp,
   // IoIosCheckbox,
   // IoIosArrowDown,
@@ -19,8 +20,9 @@ import {
 import { FaMobileScreen } from "react-icons/fa6";
 import { GoCpu } from "react-icons/go";
 import { SiSecurityscorecard } from "react-icons/si";
-import { CiCamera } from "react-icons/ci";
+import { CiCamera, CiDeliveryTruck } from "react-icons/ci";
 import { GiBattery75 } from "react-icons/gi";
+import { PiHouseLineThin } from "react-icons/pi";
 
 const ProductDetails = () => {
   return (
@@ -138,82 +140,65 @@ const ProductDetails = () => {
 
                 {/* screen size */}
                 <div className="mt-8">
-                  <div className="flex flex-col gap-4">
-                    <div className="flex gap-4">
-                      <div className="w-[168px] h-[64px] rounded-md  bg-[#F4F4F4] flex items-center justify-center ">
-                        <div className="mr-6">
-                          <FaMobileScreen size={24} />
+                  {/* screen size */}
+                  <div className="md:flex flex-col">
+                    <div className="md:flex flex-row gap-4 ">
+                      {/* m 1st and 2nd */}
+                      <div className="flex flex-row gap-4">
+                        <div className="w-[168px] h-[64px] rounded-md  bg-[#F4F4F4] flex items-center justify-center ">
+                          <div className="mr-6">
+                            <FaMobileScreen size={24} />
+                          </div>
+                          <div className="mr-2">
+                            <p className="text-[#CACACA]  text-md ">
+                              Screen size
+                            </p>
+                            <p>6.7</p>
+                          </div>
                         </div>
-                        <div className="mr-2">
-                          <p className="text-[#CACACA]  text-md ">
-                            Screen size
-                          </p>
-                          <p>6.7</p>
-                        </div>
-                      </div>
-                      {/* Apple A16 */}
-                      <div className="w-[168px] h-[64px] rounded-md  bg-[#F4F4F4] flex items-center justify-center ">
-                        <div className="mr-6">
-                          <GoCpu size={24} />
-                        </div>
-                        <div className="mr-2">
-                          <p className="text-[#CACACA]    text-sm ">CPU</p>
-                          <p className="text-sm">Apple A16</p>
-                          <p className="text-sm">Bionic</p>
-                        </div>
-                      </div>
-                      {/* cores */}
-                      <div className="w-[168px] h-[64px] rounded-md  bg-[#F4F4F4] flex items-center justify-center ">
-                        <div className="mr-6">
-                          <SiSecurityscorecard size={24} />
-                        </div>
-                        <div className="mr-2">
-                          <p className="text-[#CACACA]  text-sm ">Number of</p>
-                          <p className="text-sm">Cores</p>
-                          <p className="text-sm">6</p>
+                        {/* CPU */}
+                        <div className="w-[168px] h-[64px] rounded-md  bg-[#F4F4F4] flex items-center justify-center ">
+                          <div className="mr-6">
+                            <FaMobileScreen size={24} />
+                          </div>
+                          <div className="mr-2">
+                            <p className="text-[#CACACA]  text-md ">
+                              Screen size
+                            </p>
+                            <p>6.7</p>
+                          </div>
                         </div>
                       </div>
-                    </div>
-                    {/* 2ND  */}
-                    <div className="flex gap-4">
-                      <div className="w-[168px] h-[64px] rounded-md  bg-[#F4F4F4] flex items-center justify-center ">
-                        <div className="mr-6">
-                          <CiCamera size={24} />
+                      {/* Font camera */}
+                      <div className=" flex flex-row gap-4 ">
+                        <div className="w-[168px] h-[64px] rounded-md  bg-[#F4F4F4] flex items-center justify-center mt-4 md:mt-0 ">
+                          <div className="mr-6">
+                            <FaMobileScreen size={24} />
+                          </div>
+                          <div className="mr-2">
+                            <p className="text-[#CACACA]  text-md ">
+                              Number of cores
+                            </p>
+                            <p>12MP</p>
+                          </div>
                         </div>
-                        <div className="mr-2">
-                          <p className="text-[#CACACA]  text-md ">
-                            Main camera
-                          </p>
-                          <p>48-12-12MP</p>
-                        </div>
-                      </div>
-
-                      {/* Font-camera */}
-                      <div className="w-[168px] h-[64px] rounded-md  bg-[#F4F4F4] flex items-center justify-center ">
-                        <div className="mr-6">
-                          <CiCamera size={24} />
-                        </div>
-                        <div className="mr-2">
-                          <p className="text-[#CACACA]  text-md ">
-                            Main camera
-                          </p>
-                          <p>48-12-12MP</p>
-                        </div>
-                      </div>
-                      {/* battery */}
-                      <div className="w-[168px] h-[64px] rounded-md  bg-[#F4F4F4] flex items-center justify-center ">
-                        <div className="mr-6">
-                          <GiBattery75 size={24} />
-                        </div>
-                        <div className="mr-2">
-                          <p className="text-[#CACACA]  text-md ">
-                            Battery capacity
-                          </p>
-                          <p>4323 mAh</p>
+                        {/* 2nd image main camera */}
+                        {/* core */}
+                        <div className="w-[168px] h-[64px] rounded-md  bg-[#F4F4F4] flex items-center justify-center mt-4 md:mt-0 ">
+                          <div className="mr-6">
+                            <FaMobileScreen size={24} />
+                          </div>
+                          <div className="mr-2">
+                            <p className="text-[#CACACA]  text-md ">
+                              Screen size
+                            </p>
+                            <p>6.7</p>
+                          </div>
                         </div>
                       </div>
                     </div>
                   </div>
+
                   {/* Add */}
                   <div className="mt-6">
                     <p className="text-[#6C6C6C]">
@@ -234,6 +219,55 @@ const ProductDetails = () => {
                           Add to Card
                         </button>
                       </Link>
+                    </div>
+
+                    {/* truck */}
+                    <div className="mt-10">
+                      <div className="flex flex-row gap-6 ">
+                        <div className="flex gap-4 ">
+                          <div className="w-[56px] h-[56px] rounded-md  bg-[#F4F4F4] flex items-center justify-center ">
+                            <div className="">
+                              <CiDeliveryTruck size={24} />
+                            </div>
+                          </div>
+                          <div className="flex flex-col mt-1">
+                            <h1 className="font-medium text-[#717171]">
+                              Free Delivery
+                            </h1>
+                            <p className="font-medium text-[14px]">1-2 day</p>
+                          </div>
+                        </div>
+                        {/* house */}
+
+                        <div className="flex gap-4 ">
+                          <div className="w-[56px] h-[56px] rounded-md  bg-[#F4F4F4] flex items-center justify-center ">
+                            <div className="">
+                              <PiHouseLineThin size={24} />
+                            </div>
+                          </div>
+                          <div className="flex flex-col mt-1">
+                            <h1 className="font-medium text-[#717171]">
+                              In Stock
+                            </h1>
+                            <p className="font-medium text-[14px]">Today</p>
+                          </div>
+                        </div>
+
+                        {/*Guaranteed  */}
+                        <div className="flex gap-4 ">
+                          <div className="w-[56px] h-[56px] rounded-md  bg-[#F4F4F4] flex items-center justify-center ">
+                            <div className="">
+                              <IoMdCheckmarkCircleOutline size={24} />
+                            </div>
+                          </div>
+                          <div className="flex flex-col mt-1">
+                            <h1 className="font-medium text-[#717171]">
+                              Guaranteed
+                            </h1>
+                            <p className="font-medium text-[14px]">1 year</p>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
